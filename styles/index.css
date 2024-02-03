@@ -1,0 +1,43 @@
+body {
+    background-color:#DB424F;
+}
+
+.outline {
+    background-color: #242424;
+    color: white;
+}
+
+div {
+    background-color:#242424;
+    margin:auto;
+}
+
+.btextcenter {
+    color:white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+.btexttitle {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 300%;
+}
+
+a {
+    background-color: white;
+}
+
+pre {
+    color:white;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+.footer {
+    position: fixed;
+    top:95%;
+    background-color:#242424;
+}

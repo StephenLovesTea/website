@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/sanandreas.png")
+  }
+
+div {
+    background-color:#242424;
+    margin:auto;
+}
+
+pre {
+    color:white;
+    font-family: monospace;
+    font-size: 120%;
+}
