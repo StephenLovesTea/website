@@ -10,6 +10,7 @@ body {
 div {
     background-color:#242424;
     margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btextcenter {
@@ -27,13 +28,25 @@ div {
 }
 
 a {
+    font-family: monospace;
     background-color: white;
+    color:#242424
+}
+
+a:hover {
+    font-family: monospace;
+    background-color: wheat;
+    color: #121212
 }
 
 pre {
     color:white;
     font-family: monospace;
     font-size: 120%;
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
 }
 
 .footer {

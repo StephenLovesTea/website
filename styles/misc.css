@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    top:95%;
+    background-color:#242424;
+}
+
+pre {
+    color:white;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+div {
+    background-color:#242424;
+    margin:auto;
+}
+
+a {
+    font-family: monospace;
+    background-color: white;
+    color:#242424
+}
+
+a:hover {
+    font-family: monospace;
+    background-color: wheat;
+    color: #121212
+}
