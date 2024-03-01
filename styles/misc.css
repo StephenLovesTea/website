@@ -17,12 +17,22 @@ div {
 
 a {
     font-family: monospace;
+    display: inline-block;
     background-color: white;
-    color:#242424
+    color:#242424;
+    transition: 0.5s;
 }
-
 a:hover {
     font-family: monospace;
     background-color: wheat;
-    color: #121212
+    color: #121212;
+    transform: scale(120%);
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
 }

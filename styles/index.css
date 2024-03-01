@@ -29,24 +29,21 @@ div {
 
 a {
     font-family: monospace;
+    display: inline-block;
     background-color: white;
-    color:#242424
+    color:#242424;
+    transition: 0.5s;
 }
-
 a:hover {
     font-family: monospace;
     background-color: wheat;
-    color: #121212
+    color: #121212;
+    transform: scale(120%);
 }
 
 pre {
     color:white;
     font-family: monospace;
-    font-size: 120%;
-}
-
-.rotate:hover {
-    transform: rotate(45deg);
 }
 
 .footer {
@@ -54,3 +51,16 @@ pre {
     top:95%;
     background-color:#242424;
 }
+
+.grow {
+    transition: 2s;
+}
+.grow:hover {
+    transform: scale(150%);
+}
+
+@keyframes dance{
+    0% {transform: rotate(-20deg);}
+    50% {transform: rotate(0deg) translate(50px, -50px);}
+    100% {transform: rotate(20deg) translate(100px, 0px);} 
+  }
