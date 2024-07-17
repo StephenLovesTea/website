@@ -52,11 +52,25 @@ pre {
     background-color:#242424;
 }
 
+h1{
+    color:white;
+    font-family: monospace;
+    background-color:#242424;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .grow {
     transition: 2s;
 }
 .grow:hover {
     transform: scale(150%);
+}
+
+p{
+    color:white;
+    font-family:monospace;
+    background-color:#242424;
+    font-size: 125%;
 }
 
 @keyframes dance{

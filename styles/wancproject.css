@@ -1,0 +1,61 @@
+.footer {
+    position: fixed;
+    top:95%;
+    background-color: white
+}
+
+a {
+    font-family: monospace;
+    display: inline-block;
+    background-color: white;
+    color:#242424;
+    transition: 0.5s;
+}
+a:hover {
+    font-family: monospace;
+    background-color: wheat;
+    color: #121212;
+    transform: scale(120%);
+}
+
+pre {
+    color:white;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+body {
+    background-color:#121212;
+}
+
+p{
+    color:white;
+    font-family:monospace;
+    font-size: 125%;
+}
+
+h1{
+    color:white;
+    font-family: monospace;
+}
+h2{
+    color:white;
+    font-family: monospace;
+}
+u{
+    color: white
+}
+
+@keyframes oscilation{
+    0% {transform: rotate(-10deg);}
+    50% {transform: rotate(10deg);}
+    100% {transform: rotate(-10deg);}
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
